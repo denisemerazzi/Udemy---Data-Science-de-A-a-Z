@@ -1,0 +1,1 @@
+Minhas observações e scripts de estudo do curso do Felipe Mafra na Udemy: Data Science de A a Z - Extraçao e Exibição dos Dados, em https://www.udemy.com/course/curso-data-science-completo/
