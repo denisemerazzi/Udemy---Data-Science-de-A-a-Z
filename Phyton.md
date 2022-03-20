@@ -66,6 +66,7 @@ Ex:
 * Exercício: 
 Na expressao abaixo:
 Dados de acesso do cliente Universidade dos Dados
+
 01/02/2017 "3.878.00"
 02/02/2017 "6.088.00"
 03/02/2017 "645.00"
@@ -175,6 +176,7 @@ Podemos aninhar procedimentos e essa é uma as funções do retorno, ou seja, pa
         mundiais = ["Brasil",58,62,70,94,2002]
 
 * Assim como em strings, podemos também indexar listas.
+        
         pais = mundiais[0]
         titulo01 = mundiais[1]
         titulo02 = mundiais[2]
@@ -241,7 +243,7 @@ Podemos aninhar procedimentos e essa é uma as funções do retorno, ou seja, pa
         print(min(palavras))
         print(min(numeros))
 
-    # Reverte a lista POSICIONALMENTE 
+    * Reverte a lista posicionalmente
         numeros = [10,2,8,4,5,6,7]
         numeros.reverse()
         numeros
@@ -273,7 +275,7 @@ Podemos aninhar procedimentos e essa é uma as funções do retorno, ou seja, pa
         gerencia_de_engenharia = engenheiros & gerentes  
         gerencia_de_engenharia
 
-    # Diferença
+    * Diferença
         gerentes = set(['Jane', 'Clara', 'Susan', 'Zack'])
         engenheiros = set(['João', 'Jane', 'Clara', 'Celia'])
         a = gerentes - engenheiros
