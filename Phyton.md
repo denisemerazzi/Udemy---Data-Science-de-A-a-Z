@@ -262,27 +262,27 @@ Podemos aninhar procedimentos e essa é uma as funções do retorno, ou seja, pa
 
         
     #Sets não suportam indexaçao
-        conjunto[1]
-        engenheiros = set(['João', 'Jane', 'Clara', 'Celia'])
-        programadores = set(['Clara', 'Sam', 'Susan', 'Celia'])
-        gerentes = set(['Jane', 'Clara', 'Susan', 'Zack'])
+            conjunto[1]
+            engenheiros = set(['João', 'Jane', 'Clara', 'Celia'])
+            programadores = set(['Clara', 'Sam', 'Susan', 'Celia'])
+            gerentes = set(['Jane', 'Clara', 'Susan', 'Zack'])
 
     #Uniao
-        funcionarios = engenheiros | programadores | gerentes
-        funcionarios
+            funcionarios = engenheiros | programadores | gerentes
+            funcionarios
 
     #Interseçao
-        gerencia_de_engenharia = engenheiros & gerentes  
-        gerencia_de_engenharia
+            gerencia_de_engenharia = engenheiros & gerentes  
+            gerencia_de_engenharia
 
     * Diferença
-        gerentes = set(['Jane', 'Clara', 'Susan', 'Zack'])
-        engenheiros = set(['João', 'Jane', 'Clara', 'Celia'])
-        a = gerentes - engenheiros
-        a
+            gerentes = set(['Jane', 'Clara', 'Susan', 'Zack'])
+            engenheiros = set(['João', 'Jane', 'Clara', 'Celia'])
+             a = gerentes - engenheiros
+            
 
-        gerentes = set(['Jane', 'Clara', 'Susan', 'Zack'])
-        programadores = set(['Clara', 'Sam', 'Susan', 'Celia'])
-        b = gerentes - programadores
-        b
+            gerentes = set(['Jane', 'Clara', 'Susan', 'Zack'])
+            programadores = set(['Clara', 'Sam', 'Susan', 'Celia'])
+            b = gerentes - programadores
+            b
    
