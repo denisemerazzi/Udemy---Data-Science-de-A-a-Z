@@ -264,7 +264,7 @@ Podemos aninhar procedimentos e essa é uma as funções do retorno, ou seja, pa
         numeros.sort()
         numeros
 
-1. Sets (São conjuntos únicos)
+7. Sets (São conjuntos únicos)
         
         conjunto = set()
         conjunto.add('Java')
@@ -285,13 +285,13 @@ Podemos aninhar procedimentos e essa é uma as funções do retorno, ou seja, pa
         funcionarios = engenheiros | programadores | gerentes
         funcionarios
 
-* Interseçao
+* Intersecçao
   
             gerencia_de_engenharia = engenheiros & gerentes  
             gerencia_de_engenharia
 
 * Diferença
-* 
+  
             gerentes = set(['Jane', 'Clara', 'Susan', 'Zack'])
             engenheiros = set(['João', 'Jane', 'Clara', 'Celia'])
              a = gerentes - engenheiros
@@ -302,3 +302,49 @@ Podemos aninhar procedimentos e essa é uma as funções do retorno, ou seja, pa
             b = gerentes - programadores
             b
    
+
+   Obs: Listas []
+        Dicionários {}
+        Tuplas ()
+
+
+   8. Loop FOR e WHILE: For x while: o FOR vai ser executado ao menos uma vez, enquanto o WHILE será executado somente se a expressão for verdadeira
+*  FOR IN (útil para percorrer  listas e palavras)
+   
+   9. RANGE
+   * Pode ser usada para simplificar um grande numero de iteraçoes (última posição é EXCLUSIVA)
+  
+  10. PASS e BREAK
+* São comandos que atuam juntos com o loop while e dão maior flexibilidade, pois podem interromper o fluxo antes da condição principal tornar-se falsa
+
+  11.  Tuplas (exemplo)
+   
+        dimensoes = 52, 40, 100
+        largura, altura, profundidade = dimensoes
+        print("As dimensoes sao {} x {} x {}".format(largura, altura, profundidade))
+        print("As dimensoes sao",largura,"x",altura,"x",profundidade)
+
+12. Dicionários (exemplo)
+   
+        Elementosquimicos = {'elemento':'oxigênio','família':16, 'classe':'ametal', 'Z':8, 'A':16}
+        print(Elementosquimicos)
+
+   *  Adicionando um elemento na lista do dicionário
+
+        Elementosquimicos['família'].append('calcogênio')
+
+13. MÉTODOS:  A hierarquia de impressão é: ITEM -> KEY -> VALUES
+   
+   * Ítems (chave-valor):
+
+        print(list(Elementosquimicos.items()))
+
+* Somente a chave/valor
+  
+        print(Elementosquimicos.keys())
+         print(Elementosquimicos.value())
+
+* Impressão através do índice VAR
+  
+        for var in Elementosquimicos:
+         print('Chave:',var ,"- mapeado para:",Elementosquimicos[var])
